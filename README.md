@@ -27,7 +27,7 @@ What the Application Can Do
 
 - If you have more than one desktop monitor, you can choose.
 - **Resize** the captured desktop image.
-- Choose different **scaling modes**. (It is like the [SizeMode](x.sizemode?view=netcore-3.1#System_Windows_Forms_PictureBox_SizeMode) property of [System.Windows.Forms.PictureBox](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.picturebox?view=netcore-3.1).)
+- Choose different **scaling modes**. (It is like the [SizeMode](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.picturebox.sizemode?view=netcore-3.1#System_Windows_Forms_PictureBox_SizeMode) property of [System.Windows.Forms.PictureBox](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.picturebox?view=netcore-3.1).)
   - **Normal**: The image is placed in the upper-left corner of the output picture. The image is clipped if it is larger than the output picture size it is contained in.
   - **StretchImage**: The image within the output picture is stretched or shrunk to fit the size of the output picture size.
   - **AutoSize**: The output picture is sized equal to the size of the image that it contains.
