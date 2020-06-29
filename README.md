@@ -22,11 +22,6 @@ Server
 
 Windows Server 2012 R2
 
-Build the sample
-----------------
-
-To build this sample, open the solution (.sln) file titled dxgi_desktop_capture.sln from Visual Studio 2013 for Windows 8.1 (any SKU) or later versions of Visual Studio and Windows. Press F7 (or F6 for Visual Studio 2013) or go to Build-\>Build Solution from the top menu after the sample has loaded.
-
 What the Application Can Do
 ---------------------------
 
@@ -45,3 +40,8 @@ What the Application Can Do
   - **90**: Forced to 90 degrees.
   - **180**: Forced to 180 degrees.
   - **270**: Forced to 270 degrees.
+
+Build the sample
+----------------
+
+To build this sample, open the solution (.sln) file titled dxgi_desktop_capture.sln from Visual Studio 2013 for Windows 8.1 (any SKU) or later versions of Visual Studio and Windows. Press F7 (or F6 for Visual Studio 2013) or go to Build-\>Build Solution from the top menu after the sample has loaded.
