@@ -40,6 +40,17 @@ What the Application Can Do
   - **90**: Forced to 90 degrees.
   - **180**: Forced to 180 degrees.
   - **270**: Forced to 270 degrees.
+  
+References
+----------
+
+[DXGI desktop duplication sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DXGIDesktopDuplication)
+
+[How to render by using a Direct2D device context](https://docs.microsoft.com/en-us/windows/win32/direct2d/devices-and-device-contexts)
+
+[OBS Studio](https://github.com/obsproject/obs-studio)
+
+[Desktop Screen Capture on Windows](https://www.codeproject.com/Tips/1116253/Desktop-Screen-Capture-on-Windows-via-Windows-Desk)
 
 Build the sample
 ----------------
