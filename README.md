@@ -33,10 +33,10 @@ What the Application Can Do
 - If you have more than one desktop monitor, you can choose.
 - **Resize** the captured desktop image.
 - Choose different **scaling modes**.
-  Normal: The image is placed in the upper-left corner of the output picture. The image is clipped if it is larger than the output picture size it is contained in.
-  StretchImage: The image within the output picture is stretched or shrunk to fit the size of the output picture size.
-  AutoSize: The output picture is sized equal to the size of the image that it contains.
-  CenterImage: The image is displayed in the center if the output picture is larger than the image. If the image is larger than the output picture size, the picture is placed in the center of the output picture and the outside edges are clipped.
-  Zoom: The size of the image is increased or decreased maintaining the size ratio. Empty areas of the output image are filled in black.
+  - **Normal**: The image is placed in the upper-left corner of the output picture. The image is clipped if it is larger than the output picture size it is contained in.
+  - **StretchImage**: The image within the output picture is stretched or shrunk to fit the size of the output picture size.
+  - **AutoSize**: The output picture is sized equal to the size of the image that it contains.
+  - **CenterImage**: The image is displayed in the center if the output picture is larger than the image. If the image is larger than the output picture size, the picture is placed in the center of the output picture and the outside edges are clipped.
+  - **Zoom**: The size of the image is increased or decreased maintaining the size ratio. Empty areas of the output image are filled in black.
 - You can **show or hide** the mouse icon in the output image.
 - You can **rotate** the image for the output picture, or leave it as default.
