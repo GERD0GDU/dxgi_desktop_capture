@@ -40,3 +40,8 @@ What the Application Can Do
   - **Zoom**: The size of the image is increased or decreased maintaining the size ratio. Empty areas of the output image are filled in black.
 - You can **show or hide** the mouse icon in the output image.
 - You can **rotate** the image for the output picture, or leave it as default.
+  - **Auto**: Uses display settings.
+  - **Identity**: No rotation is applied.
+  - **90**: Forced to 90 degrees.
+  - **180**: Forced to 180 degrees.
+  - **270**: Forced to 270 degrees.
