@@ -58,3 +58,15 @@ Build the sample
 ----------------
 
 To build this sample, open the solution (.sln) file titled dxgi_desktop_capture.sln from Visual Studio 2013 for Windows 8.1 (any SKU) or later versions of Visual Studio and Windows. Press F7 (or F6 for Visual Studio 2013) or go to Build-\>Build Solution from the top menu after the sample has loaded.
+
+Run the sample
+--------------
+
+To run this sample after building it, perform the following:
+
+1. Navigate to the directory that contains the new executable, using the command prompt.
+2. Type one of the following commands to run the executable.
+   1. From the command-line, run **dxgi_desktop_capture.exe -help** to the show help topic.
+   2. From the command-line, run **dxgi_desktop_capture.exe -o .\\output_file_name.bmp** to produce a bitmap. Change the file extension for other supported file formats. (*.png; *.jpg)
+   3. If you have more than one desktop monitor, from the command-line for the second monitor, run **dxgi_desktop_capture.exe -i 1 -o .\\output_file_name.jpg** to produce a jpeg.
+      
