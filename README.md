@@ -2,6 +2,7 @@ DXGI Desktop Capture
 ===============================
 
 Project that captures the desktop image with DXGI duplication. Saves the captured image to the file in different image formats (*.bmp; *.jpg; *.tif).
+
 This application can be interesting, because it presents a solution with drawing of current icon of cursor into the captured desktop screen image. (Pixel Alpha Blending)
 
 **Warning**  This sample requires Microsoft Visual Studio 2013 or a later version (any SKU) and will not compile in Microsoft Visual Studio Express 2013 for Windows.
