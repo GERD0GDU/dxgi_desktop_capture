@@ -146,7 +146,7 @@ int main(int argc, char* argv[])
 			0,
 			1,
 			{ (void*)&showResultImage },
-			"show result image file",
+			"show result image file. (0:false, 1:true)",
 			nullptr
 		},
 		{ NULL },
