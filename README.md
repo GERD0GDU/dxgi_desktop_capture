@@ -66,24 +66,24 @@ To run this sample after building it, perform the following:
 
 1. Navigate to the directory that contains the new executable, using the command prompt.
 2. Type one of the following commands to run the executable.
-   1. From the command-line, run **dxgi_desktop_capture.exe -help** to the show help topic.
-   When this command is executed, the output will output.
-   ```
-   usage: dxgi_desktop_capture.exe [options] -o outfile
-   Print help / information / capabilities:
-   -h topic            show help
-   -? topic            show help
-   -help topic         show help
-   -sources device     list monitors of the dxgi device (in json format)
-   -i monitor_idx      The index of the monitor.
-   -c show_cursor      show cursor visible in output image. (0:false, 1:true)
-   -s size_mode        force image size mode. (0:Normal, 1:Stretch, 2:Auto, 3:Center, 4:Zoom)
-   -r rotation_mode    force image rotation mode. (0:Auto, 1:Identity, 2:90, 3:180, 4:270)
-   -x image_width      force output image width
-   -y image_height     force output image height
-   -o outfile          set output image file name (supports: *.bmp; *.png; *.tif)
-   -show               show result image file
-   ```
+   1. From the command-line, run **dxgi_desktop_capture.exe -help** to the show help topic. When this command is executed, the output will output.
+      ```
+      usage: dxgi_desktop_capture.exe [options] -o outfile
+      
+      Print help / information / capabilities:
+      -h topic            show help
+      -? topic            show help
+      -help topic         show help
+      -sources device     list monitors of the dxgi device (in json format)
+      -i monitor_idx      The index of the monitor.
+      -c show_cursor      show cursor visible in output image. (0:false, 1:true)
+      -s size_mode        force image size mode. (0:Normal, 1:Stretch, 2:Auto, 3:Center, 4:Zoom)
+      -r rotation_mode    force image rotation mode. (0:Auto, 1:Identity, 2:90, 3:180, 4:270)
+      -x image_width      force output image width
+      -y image_height     force output image height
+      -o outfile          set output image file name (supports: *.bmp; *.png; *.tif)
+      -show               show result image file
+      ```
    2. From the command-line, run **dxgi_desktop_capture.exe -o .\\output_file_name.bmp** to produce a bitmap. Change the file extension for other supported file formats. (*.png; *.jpg)
    3. If you have more than one desktop monitor, from the command-line for the second monitor, run **dxgi_desktop_capture.exe -i 1 -o .\\output_file_name.jpg** to produce a jpeg.
-      
+   4. From the command-line, run **dxgi_desktop_capture.exe -s 4 -x 720 -y 576 -o .\output_file_name.jpg -show 1** to produces a 720x576 jpeg, keeping the desktop aspect ratio.
