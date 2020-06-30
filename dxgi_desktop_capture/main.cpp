@@ -83,7 +83,7 @@ int main(int argc, char* argv[])
 			0,
 			(int)0xFFFF,
 			{ (void*)&(config.MonitorIdx) },
-			"The index of the monitor.",
+			"The index of the monitor. Default is '0'",
 			"monitor_idx"
 		},
 		{
@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
 			0,
 			1,
 			{ (void*)&(config.SizeMode) },
-			"show cursor visible in output image. (0:false, 1:true)",
+			"show cursor visible in output image. Default is '1' (0:false, 1:true)",
 			"show_cursor"
 		},
 		{
@@ -101,7 +101,7 @@ int main(int argc, char* argv[])
 			(int)tagFrameSizeMode_Normal,
 			(int)tagFrameSizeMode_Zoom,
 			{ (void*)&(config.SizeMode) },
-			"force image size mode. (0:Normal, 1:Stretch, 2:Auto, 3:Center, 4:Zoom)",
+			"force image size mode. Default is '2' (0:Normal, 1:Stretch, 2:Auto, 3:Center, 4:Zoom)",
 			"size_mode"
 		},
 		{
@@ -110,7 +110,7 @@ int main(int argc, char* argv[])
 			(int)tagFrameRotationMode_Auto,
 			(int)tagFrameRotationMode_270,
 			{ (void*)&(config.RotationMode) },
-			"force image rotation mode. (0:Auto, 1:Identity, 2:90, 3:180, 4:270)",
+			"force image rotation mode. Default is '0' (0:Auto, 1:Identity, 2:90, 3:180, 4:270)",
 			"rotation_mode"
 		},
 		{
@@ -146,7 +146,7 @@ int main(int argc, char* argv[])
 			0,
 			1,
 			{ (void*)&showResultImage },
-			"show result image file. (0:false, 1:true)",
+			"show result image file. Default is '0' (0:false, 1:true)",
 			nullptr
 		},
 		{ NULL },
