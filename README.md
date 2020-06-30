@@ -75,14 +75,14 @@ To run this sample after building it, perform the following:
       -? topic            show help
       -help topic         show help
       -sources device     list monitors of the dxgi device (in json format)
-      -i monitor_idx      The index of the monitor.
-      -c show_cursor      show cursor visible in output image. (0:false, 1:true)
-      -s size_mode        force image size mode. (0:Normal, 1:Stretch, 2:Auto, 3:Center, 4:Zoom)
-      -r rotation_mode    force image rotation mode. (0:Auto, 1:Identity, 2:90, 3:180, 4:270)
+      -i monitor_idx      The index of the monitor. Default is '0'
+      -c show_cursor      show cursor visible in output image. Default is '1' (0:false, 1:true)
+      -s size_mode        force image size mode. Default is '2' (0:Normal, 1:Stretch, 2:Auto, 3:Center, 4:Zoom)
+      -r rotation_mode    force image rotation mode. Default is '0' (0:Auto, 1:Identity, 2:90, 3:180, 4:270)
       -x image_width      force output image width
       -y image_height     force output image height
       -o outfile          set output image file name (supports: *.bmp; *.png; *.tif)
-      -show               show result image file. (0:false, 1:true)
+      -show               show result image file. Default is '0' (0:false, 1:true)
       ```
    2. From the command-line, run **dxgi_desktop_capture.exe -o .\\output_file_name.bmp** to produce a bitmap. Change the file extension for other supported file formats. (*.png; *.jpg)
    3. If you have more than one desktop monitor, from the command-line for the second monitor, run **dxgi_desktop_capture.exe -i 1 -o .\\output_file_name.jpg** to produce a jpeg.
