@@ -82,7 +82,7 @@ To run this sample after building it, perform the following:
       -x image_width      force output image width
       -y image_height     force output image height
       -o outfile          set output image file name (supports: *.bmp; *.png; *.tif)
-      -show               show result image file
+      -show               show result image file. (0:false, 1:true)
       ```
    2. From the command-line, run **dxgi_desktop_capture.exe -o .\\output_file_name.bmp** to produce a bitmap. Change the file extension for other supported file formats. (*.png; *.jpg)
    3. If you have more than one desktop monitor, from the command-line for the second monitor, run **dxgi_desktop_capture.exe -i 1 -o .\\output_file_name.jpg** to produce a jpeg.
