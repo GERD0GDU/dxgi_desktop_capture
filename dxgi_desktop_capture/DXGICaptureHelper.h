@@ -299,7 +299,8 @@ public:
 			if (pRendererInfo->RotationDegrees == 90)
 			{
 				// set destination origin (bottom-left)
-				pRendererInfo->DstBounds.Y = pRendererInfo->OutputSize.Height - pRendererInfo->DstBounds.Height;
+				pRendererInfo->DstBounds.X = (pRendererInfo->OutputSize.Width - pRendererInfo->OutputSize.Height) >> 1;
+				pRendererInfo->DstBounds.Y = ((pRendererInfo->OutputSize.Width + pRendererInfo->OutputSize.Height) >> 1) - pRendererInfo->DstBounds.Height;
 			}
 			else if (pRendererInfo->RotationDegrees == 180.0f)
 			{
@@ -310,7 +311,8 @@ public:
 			else if (pRendererInfo->RotationDegrees == 270)
 			{
 				// set destination origin (top-right)
-				pRendererInfo->DstBounds.X = pRendererInfo->OutputSize.Width - pRendererInfo->DstBounds.Width;
+				pRendererInfo->DstBounds.Y = (pRendererInfo->OutputSize.Height - pRendererInfo->OutputSize.Width) >> 1;
+				pRendererInfo->DstBounds.X = pRendererInfo->OutputSize.Width - pRendererInfo->DstBounds.Width - ((pRendererInfo->OutputSize.Width - pRendererInfo->OutputSize.Height) >> 1);
 			}
 		}
 
